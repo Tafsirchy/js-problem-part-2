@@ -10,10 +10,14 @@ function getMax (numbers) {
         if(number > max){
             max = number;
         }
-        
+
     }
     return max;
 }
 
+
 const tallest = getMax(heights);
 console.log('Max height is: ', tallest);
+
+
+
