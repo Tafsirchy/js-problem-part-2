@@ -9,7 +9,7 @@ const products = [
 function shoppingCart (items) {
 
     let total = 0;
-    for( const item of items){
+    for( const item of items){ 
         // console.log(item)
         const thisItemCost = item.price * item.quantity;
         // total = total + item.price * item.quantity;
